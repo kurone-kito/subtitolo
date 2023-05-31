@@ -796,14 +796,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kurone-kito/eslint-config-base@npm:^0.3.4":
-  version: 0.3.4
-  resolution: "@kurone-kito/eslint-config-base@npm:0.3.4"
+"@kurone-kito/eslint-config-base@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@kurone-kito/eslint-config-base@npm:0.4.0"
   peerDependencies:
     "@cspell/eslint-plugin": ^6.31.1
-    "@typescript-eslint/eslint-plugin": ^5.59.5
-    "@typescript-eslint/parser": ^5.59.5
-    eslint: ^8.40.0
+    "@typescript-eslint/eslint-plugin": ^5.59.7
+    "@typescript-eslint/parser": ^5.59.7
+    eslint: ^8.41.0
     eslint-config-airbnb-typescript: ^17.0.0
     eslint-config-prettier: ^8.8.0
     eslint-formatter-codeframe: ^7.32.1
@@ -811,13 +811,13 @@ __metadata:
     eslint-import-resolver-typescript: ^3.5.5
     eslint-plugin-editorconfig: ^4.0.3
     eslint-plugin-import: ^2.27.5
-    eslint-plugin-jsdoc: ^44.0.1
+    eslint-plugin-jsdoc: ^44.2.7
     eslint-plugin-json: ^3.1.0
     eslint-plugin-lodash: ^7.4.0
     eslint-plugin-markdown: ^3.0.0
     eslint-plugin-node: ^11.1.0
     eslint-plugin-yaml: ^0.5.0
-  checksum: 02dad854afe138011664881422af38492d0209e5d3ed94a529e9436ff0023399e452c7a0ced762cc6e72af4391c36389fea0510bb7b1b630258caaa88b6b2066
+  checksum: d12c562901f790ff570ac2d46011b527c1e7fc95e475ec55104671a9a3a4a9111d2ea096dd479c52e258e1309dbf5e2343bb0e63352735450cefa658f107a00d
   languageName: node
   linkType: hard
 
@@ -850,7 +850,7 @@ __metadata:
     "@commitlint/cli": ^17.6.3
     "@commitlint/config-conventional": ^17.6.3
     "@cspell/eslint-plugin": ^6.31.1
-    "@kurone-kito/eslint-config-base": ^0.3.4
+    "@kurone-kito/eslint-config-base": ^0.4.0
     "@kurone-kito/prettier-config": ^0.3.4
     "@kurone-kito/typescript-config": ^0.3.4
     "@typescript-eslint/eslint-plugin": ^5.59.5
