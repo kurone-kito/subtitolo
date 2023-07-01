@@ -821,15 +821,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kurone-kito/prettier-config@npm:^0.3.4":
-  version: 0.3.4
-  resolution: "@kurone-kito/prettier-config@npm:0.3.4"
+"@kurone-kito/prettier-config@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "@kurone-kito/prettier-config@npm:0.6.0"
   peerDependencies:
-    prettier: ^2.8.8
-    prettier-plugin-packagejson: ^2.4.3
-    prettier-plugin-sh: ^0.12.8
-    prettier-plugin-sort-json: ^1.0.0
-  checksum: cf1bc10ec232e5b47810cf205d682ad1261730e3d946d398361acb69e8e61a84cf43e36443f87fbf79e67bfa7d5a7f11e5c633293364aab7cf65a2c08d1cf052
+    prettier: ">=2.3.x"
+    prettier-plugin-packagejson: ">=2.x.x"
+    prettier-plugin-sort-json: ">=1.x.x"
+  peerDependenciesMeta:
+    prettier:
+      optional: true
+    prettier-plugin-packagejson:
+      optional: true
+    prettier-plugin-sort-json:
+      optional: true
+  checksum: c5dc091e6aaac3dab58df9ae0474986b57edb29452f016fcccaf53fe0d9e967decc77ed1e474940235a0b2a153c72089aaa6ac1a2f8e6f116883c09f5d9f00e0
   languageName: node
   linkType: hard
 
@@ -851,7 +857,7 @@ __metadata:
     "@commitlint/config-conventional": ^17.6.3
     "@cspell/eslint-plugin": ^6.31.1
     "@kurone-kito/eslint-config-base": ^0.3.4
-    "@kurone-kito/prettier-config": ^0.3.4
+    "@kurone-kito/prettier-config": ^0.6.0
     "@kurone-kito/typescript-config": ^0.3.4
     "@typescript-eslint/eslint-plugin": ^5.59.5
     "@typescript-eslint/parser": ^5.59.5
