@@ -796,28 +796,63 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kurone-kito/eslint-config-base@npm:^0.3.4":
-  version: 0.3.4
-  resolution: "@kurone-kito/eslint-config-base@npm:0.3.4"
+"@kurone-kito/eslint-config-base@npm:^0.7.2":
+  version: 0.7.2
+  resolution: "@kurone-kito/eslint-config-base@npm:0.7.2"
   peerDependencies:
-    "@cspell/eslint-plugin": ^6.31.1
-    "@typescript-eslint/eslint-plugin": ^5.59.5
-    "@typescript-eslint/parser": ^5.59.5
-    eslint: ^8.40.0
-    eslint-config-airbnb-typescript: ^17.0.0
-    eslint-config-prettier: ^8.8.0
-    eslint-formatter-codeframe: ^7.32.1
-    eslint-import-resolver-node: ^0.3.7
-    eslint-import-resolver-typescript: ^3.5.5
-    eslint-plugin-editorconfig: ^4.0.3
-    eslint-plugin-import: ^2.27.5
-    eslint-plugin-jsdoc: ^44.0.1
-    eslint-plugin-json: ^3.1.0
-    eslint-plugin-lodash: ^7.4.0
-    eslint-plugin-markdown: ^3.0.0
-    eslint-plugin-node: ^11.1.0
-    eslint-plugin-yaml: ^0.5.0
-  checksum: 02dad854afe138011664881422af38492d0209e5d3ed94a529e9436ff0023399e452c7a0ced762cc6e72af4391c36389fea0510bb7b1b630258caaa88b6b2066
+    "@cspell/eslint-plugin": ">=6.x.x"
+    "@typescript-eslint/eslint-plugin": ">=6.0.x"
+    "@typescript-eslint/parser": ">=6.0.x"
+    eslint: ">=8.2.x"
+    eslint-config-airbnb-typescript: ">=17.x.x"
+    eslint-config-prettier: ">=8.x.x"
+    eslint-formatter-codeframe: ">=7.x.x"
+    eslint-import-resolver-node: ">=0.3.x"
+    eslint-import-resolver-typescript: ">=3.x.x"
+    eslint-plugin-editorconfig: ">=4.x.x"
+    eslint-plugin-import: ">=2.27.x"
+    eslint-plugin-jsdoc: ">=46.x.x"
+    eslint-plugin-json: ">=3.x.x"
+    eslint-plugin-lodash: ">=7.x.x"
+    eslint-plugin-markdown: ">=3.x.x"
+    eslint-plugin-node: ">=11.x.x"
+    eslint-plugin-yaml: ">=0.5.x"
+  peerDependenciesMeta:
+    "@cspell/eslint-plugin":
+      optional: true
+    "@typescript-eslint/eslint-plugin":
+      optional: true
+    "@typescript-eslint/parser":
+      optional: true
+    eslint:
+      optional: true
+    eslint-config-airbnb-typescript:
+      optional: true
+    eslint-config-prettier:
+      optional: true
+    eslint-formatter-codeframe:
+      optional: true
+    eslint-import-resolver-node:
+      optional: true
+    eslint-import-resolver-typescript:
+      optional: true
+    eslint-plugin-editorconfig:
+      optional: true
+    eslint-plugin-import:
+      optional: true
+    eslint-plugin-jsdoc:
+      optional: true
+    eslint-plugin-json:
+      optional: true
+    eslint-plugin-lodash:
+      optional: true
+    eslint-plugin-markdown:
+      optional: true
+    eslint-plugin-node:
+      optional: true
+    eslint-plugin-yaml:
+      optional: true
+  checksum: 3767bfc3e6e17cb1d09b9238948ac74ea9de2138c9af870ab9cb83368ed44597299ceb5ba6738150fd2db4261e4ca2d59beaed2b4f103dd0cc6359726b0afc82
   languageName: node
   linkType: hard
 
@@ -850,7 +885,7 @@ __metadata:
     "@commitlint/cli": ^17.6.3
     "@commitlint/config-conventional": ^17.6.3
     "@cspell/eslint-plugin": ^6.31.1
-    "@kurone-kito/eslint-config-base": ^0.3.4
+    "@kurone-kito/eslint-config-base": ^0.7.2
     "@kurone-kito/prettier-config": ^0.3.4
     "@kurone-kito/typescript-config": ^0.3.4
     "@typescript-eslint/eslint-plugin": ^5.59.5
