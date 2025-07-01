@@ -833,13 +833,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kurone-kito/typescript-config@npm:^0.3.4":
-  version: 0.3.4
-  resolution: "@kurone-kito/typescript-config@npm:0.3.4"
+"@kurone-kito/typescript-config@npm:^0.20.0":
+  version: 0.20.0
+  resolution: "@kurone-kito/typescript-config@npm:0.20.0"
   peerDependencies:
-    typescript: ~5.0.4
-    typescript-eslint-language-service: ^5.0.5
-  checksum: 24b2f998ed308a60fabff2eb4d499cfe433e22c678cd6b05b0e662447abb27aa82342bdb71e30be3f1a1d4e73d5d81fff3d581e705cb8fb65592b5f96b01001f
+    typescript: ">=5.7.x"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 831e219a20bc9fc95dcf7f2a54a5a28ac3a98f48d65aaea77e4cb706908c31d573d54ac85ce4e09221085e22a2610b4db083671075ba739c9b846c9449850490
   languageName: node
   linkType: hard
 
@@ -852,7 +854,7 @@ __metadata:
     "@cspell/eslint-plugin": ^6.31.1
     "@kurone-kito/eslint-config-base": ^0.3.4
     "@kurone-kito/prettier-config": ^0.3.4
-    "@kurone-kito/typescript-config": ^0.3.4
+    "@kurone-kito/typescript-config": ^0.20.0
     "@typescript-eslint/eslint-plugin": ^5.59.5
     "@typescript-eslint/parser": ^5.59.5
     "@yarnpkg/sdks": ^3.0.0-rc.43
